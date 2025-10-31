@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "62661d90-9f2f-4e1f-ab22-49046666867d",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:4000/api/admin/add-LabSci",
+        "url": "http://localhost:4000/api/admin/add-LabSci",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2025-09-17T13:37:54.536Z",
+        "modified": "2025-09-17T13:37:54.536Z",
+        "headers": [],
+        "body": {
+            "type": "formdata",
+            "raw": "",
+            "form": [
+                {
+                    "name": "name",
+                    "value": "test name"
+                },
+                {
+                    "name": "email",
+                    "value": "test email"
+                },
+                {
+                    "name": "password",
+                    "value": "12345678"
+                },
+                {
+                    "name": "certified",
+                    "value": "yes"
+                },
+                {
+                    "name": "experience",
+                    "value": "4"
+                },
+                {
+                    "name": "about",
+                    "value": "test about"
+                },
+                {
+                    "name": "address",
+                    "value": "{\"line1\":\"Near Shiv Mandir\",\"line2\":\"Barabanki, UP\"}"
+                },
+                {
+                    "name": "fees",
+                    "value": "40"
+                }
+            ],
+            "files": [
+                {
+                    "name": "image",
+                    "value": "../frontend/src/assets/upload_area.png"
+                }
+            ]
+        }
+    }
+]
